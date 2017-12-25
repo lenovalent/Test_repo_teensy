@@ -17,7 +17,7 @@ void setup()
 
     pinMode(led_pin, OUTPUT);
 
-    MsTimer2::set(1000, flash); // 500ms period
+    MsTimer2::set(100, flash); // 500ms period
     MsTimer2::start();
 }
 
